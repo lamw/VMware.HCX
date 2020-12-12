@@ -1523,11 +1523,11 @@ Function New-HCXCloudActivationKey {
     .DESCRIPTION
         This cmdlet requests new HCX Activation License Key
     .EXAMPLE
-        Get-HCXCloudActivationKey -SID <SID> -SystemType [HCX-CLOUD|HCX-ENTERPRISE]
+        Get-HCXCloudActivationKey -SID <SID> -SystemType [HCX-CONNECTOR|HCX-ENTERPRISE]
 #>
     Param (
         [Parameter(Mandatory=$true)][String]$SID,
-        [Parameter(Mandatory=$true)][ValidateSet("HCX-CLOUD","HCX-ENTERPRISE")][String]$SystemType,
+        [Parameter(Mandatory=$true)][ValidateSet("HCX-CONNECTOR","HCX-ENTERPRISE")][String]$SystemType,
         [Switch]$Troubleshoot
     )
 
@@ -1644,14 +1644,14 @@ Function Set-HCXCloud {
         if($Activate) {
             $HcxSid = (Get-HCXCloudSubscription | where {$_.STATUS -eq "ACTIVE"}).SID
 
-            # Check to see if there is an available HCX-Cloud Key
-            $HcxKey = ((Get-HCXCloudActivationKey -Type AVAILABLE | where {$_.systemType -eq 'hcx-cloud'}) | select -First 1).activationKey
+            # Check to see if there is an available HCX-Connector Key
+            $HcxKey = ((Get-HCXCloudActivationKey -Type AVAILABLE | where {$_.systemType -eq 'hcx-connector'}) | select -First 1).activationKey
             if($HcxKey -eq $null) {
-                $HcxKey = New-HCXCloudActivationKey -SID $HcxSid -SystemType HCX-CLOUD
+                $HcxKey = New-HCXCloudActivationKey -SID $HcxSid -SystemType HCX-CONNECTOR
             }
 
             if($HCXKey -eq $null -or $HcxSid -eq $null) {
-                Write-Error "Failed to retrieve HCX Subscription ID or request HCX Cloud License Key"
+                Write-Error "Failed to retrieve HCX Subscription ID or request HCX Connector License Key"
                 break
             }
 
