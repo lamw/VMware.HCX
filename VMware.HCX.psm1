@@ -5,7 +5,7 @@ Function Connect-HcxServer {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -62,7 +62,7 @@ Function Get-HcxCloudConfig {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -101,7 +101,7 @@ Function Get-HcxEndpoint {
     Created by:    William Lam
     Date:          09/24/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -177,7 +177,7 @@ Function New-HcxMigration {
     Created by:    William Lam
     Date:          09/24/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -431,7 +431,7 @@ Function Get-HcxMigration {
     Created by:    William Lam
     Date:          09/24/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -515,7 +515,7 @@ Function Connect-HcxVAMI {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -557,7 +557,7 @@ Function Get-HcxVCConfig {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -634,7 +634,7 @@ Function Set-HcxLicense {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -700,7 +700,7 @@ Function Set-HcxVCConfig {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -815,7 +815,7 @@ Function Get-HcxNSXConfig {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -853,7 +853,7 @@ Function Set-HcxNSXConfig {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -927,7 +927,7 @@ Function Get-HcxCity {
         Created by:    William Lam
         Date:          09/16/2018
         Organization:  VMware
-        Blog:          http://www.virtuallyghetto.com
+        Blog:          http://www.williamlam.com
         Twitter:       @lamw
         ===========================================================================
 
@@ -980,7 +980,7 @@ Function Get-HcxLocation {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1010,7 +1010,7 @@ Function Set-HcxLocation {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1103,7 +1103,7 @@ Function Get-HcxRoleMapping {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1133,7 +1133,7 @@ Function Set-HcxRoleMapping {
     Created by:    William Lam
     Date:          09/16/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1199,7 +1199,7 @@ Function Get-HcxProxy {
     Created by:    William Lam
     Date:          10/31/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1232,7 +1232,7 @@ Function Set-HcxProxy {
     Created by:    William Lam
     Date:          10/31/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1311,7 +1311,7 @@ Function Remove-HcxProxy {
     Created by:    William Lam
     Date:          10/31/2018
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1366,7 +1366,7 @@ Function Connect-HcxCloudServer {
     Created by:    William Lam
     Date:          06/19/2019
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1428,7 +1428,7 @@ Function Get-HCXCloudActivationKey {
     Created by:    William Lam
     Date:          06/19/2019
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1474,7 +1474,7 @@ Function Get-HCXCloudSubscription {
     Created by:    William Lam
     Date:          06/19/2019
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1514,7 +1514,7 @@ Function New-HCXCloudActivationKey {
     Created by:    William Lam
     Date:          06/19/2019
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1578,7 +1578,7 @@ Function Get-HCXCloud {
     Created by:    William Lam
     Date:          06/19/2019
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
@@ -1618,7 +1618,7 @@ Function Set-HCXCloud {
     Created by:    William Lam
     Date:          06/19/2019
     Organization:  VMware
-    Blog:          http://www.virtuallyghetto.com
+    Blog:          http://www.williamlam.com
     Twitter:       @lamw
     ===========================================================================
 
